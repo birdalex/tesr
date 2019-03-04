@@ -5,4 +5,3 @@ $("body").on('click', '[href*="#"]', function (e) {
   }, 1000);
   e.preventDefault();
 });
-module.exports = scroll;
